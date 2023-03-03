@@ -1,0 +1,426 @@
+.body{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(700px, 4fr));
+    gap: 20px;
+    place-items: center;
+}
+.image1{
+    left: 10px;
+    right: 10px;
+    width: 100%;
+    height: 500px;
+    top: 60px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.textha{
+    top: 100px;
+    color: white;
+    left: 100px;
+    z-index: 10;
+    margin-top: 200px;
+    position: absolute;
+    background-color: rgba(141, 137, 137, 0.596);
+}
+
+.ducati{
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.andrea{
+    font-size: 30px;
+    padding-left:10px ;
+}
+
+
+.num1{
+    color:goldenrod;
+    left: 400px;
+    top: 430px;
+    position: absolute;
+    font-size: 720px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tra{
+    background-color: goldenrod;
+    text-underline-position: left
+}
+
+.single{
+    font-size: 40px;
+    
+}
+
+.Beta{
+    font-size: 25px;
+}
+
+.when{
+    font-size: 15px;
+}
+
+.img1{
+    width: 450px;
+    height: 250px;
+    left: 120px;
+    top: 750px;
+    position: absolute;
+    box-shadow: 8px 8px 8px;
+}
+
+.case{
+    top: 750px;
+    left: 590px;
+    position: absolute;
+}
+
+
+.num2{
+    color: red;
+    left: 300px;
+    top: 1100px;
+    position: absolute;
+    font-size: 720px;
+    font-family: 'Times New Roman', Times, serif;   
+}
+
+.img2{
+    width: 450px;
+    height: 250px;
+    right: 100px;
+    top: 1400px;
+    position: absolute;
+    box-shadow: 8px 8px 8px;
+    left: 520px;
+}
+
+.text2{
+    top: 1450px;
+    left: 150px;
+    position: absolute;
+}
+
+
+.roland{
+    font-size: 40px;
+}
+.rol{
+    background-color: red;
+}
+.cops{
+    font-size: 25px;
+}
+.sometimes{
+    font-size: 15px;
+}
+
+.num3{
+    color:rgb(46, 159, 234);
+    left: 400px;
+    top: 1720px;
+    position: absolute;
+    font-size: 720px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.of{
+    background-color:rgb(46, 159, 234) ;
+}
+
+.text3{
+    top: 2000px;
+    right: 10px;
+    position: absolute;
+    left: 600px;
+} 
+
+.king{
+    font-size: 40px;
+}
+.john{
+    font-size: 25px;
+}
+.ellis{
+    font-size: 15px;
+}
+
+.img3{
+    width: 450px;
+    height: 250px;
+    left: 100px;
+    top: 2000px;
+    position: absolute;
+    box-shadow: 8px 8px 8px;
+}
+
+.num4{
+    color:rgba(127, 211, 17, 0.833);
+    left: 300px;
+    top: 2300px;
+    position: absolute;
+    font-size: 720px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.yamaha{
+    font-size: 40px;
+}
+
+.yam{
+    background-color:rgba(127, 211, 17, 0.833) ;
+}
+.first{
+    font-size: 25px;
+}
+.the{
+    font-size: 15px;
+}
+
+
+.img4{
+    width: 450px;
+    height: 250px;
+    right: 80px;
+    top: 2600px;
+    position: absolute;
+    box-shadow: 8px 8px 8px;
+    left: 520px;
+}
+
+
+.text4{
+    top: 2650px;
+    left: 150px;
+    position: absolute;
+}
+
+
+.end{
+    padding-left:100px;
+    position: absolute;
+    top: 3060px;
+}
+
+.endfin{
+   background-color: rgb(36, 35, 35);
+   color: goldenrod;
+   background-position: 4200px;
+   top:3100px ;
+   position: absolute;
+   height: 50px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px; 
+}
+.very{
+    background-image: url(lorenzo-833726__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.icone{
+    top: 3050px;
+    position:absolute;
+    left: 1100px;
+    display:flex;
+    align-items: center;
+    align-content: space-between;
+    text-indent: 1em;
+}
+
+
+@media screen and (max-width:768px)
+ {
+    div.header{ font-size: 15px ;width: 330px;position: absolute;}
+    i.fa.fa-bars::before{left:400px ; position: absolute;}
+    
+  img.image1{width: 768px; height: 500px; padding-left:0px ; padding-right:0px ;}
+
+  div.case{top: 1080px;position: absolute; left: 100px;}
+
+    div.num2{top: 1200px; left: 120px;}
+
+    img.img2{top: 1520px;left:300px ;}
+
+    b.rol{top: 1600px; right: 60px;}
+
+    .text2{
+        top: 1900px;
+        left: 350px;
+        position: absolute;
+    }
+    .num3{
+        color:rgb(46, 159, 234);
+        left: 400px;
+        top: 2000px;
+        position: absolute;
+        font-size: 720px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    img.img3{top: 2300px;}
+
+    .text3{
+        top: 2700px;
+        left: 70px;
+        position: absolute;
+    } 
+
+    .num4{
+        color:rgba(127, 211, 17, 0.833);
+        left: 140px;
+        top: 2800px;
+        position: absolute;
+        font-size: 720px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .img4{
+        width: 400px;
+        height: 250px;
+        right: 80px;
+        top: 3100px;
+        position: absolute;
+        box-shadow: 8px 8px 8px;
+        left: 360px;
+    }
+    
+    
+    .text4{
+        top: 3490px;
+        left: 400px;
+        position: absolute;
+    }
+    div.endfin{
+        top: 3900px;
+    }
+
+    div.end{
+        top: 3850px;
+        padding-left: 10px;
+    }
+
+    .icone{
+        top: 3840px;
+        position:absolute;
+        left: 590px;
+        display:flex;
+        align-items: center;
+        align-content: space-between;
+        text-indent: 1em;
+    }
+    
+}
+
+
+@media screen and (max-width:708px)  {
+    
+    div.endfin{
+        top: 3900px;
+        width:900px ;
+
+    }
+
+    .text4{
+        top: 3490px;
+        left: 300px;
+        position: absolute;
+
+    }
+}
+
+
+@media screen and (max-width:608px)  {
+    
+     div.header{ font-size: 15px ;width: 330px;position: absolute;}
+    i.fa.fa-bars::before{left:400px ; position: absolute;}
+    
+  img.image1{width: 768px; height: 500px; padding-left:0px ; padding-right:0px ;}
+
+  div.case{top: 1080px;position: absolute; left: 100px;}
+
+    div.num2{top: 1200px; left: 120px;}
+
+    img.img2{top: 1520px;left:300px ;}
+
+    b.rol{top: 1600px; right: 60px;}
+
+    div.endfin{
+        top: 3900px;
+        width:765px ;
+
+    }
+
+    .text4{
+        top: 3490px;
+        left: 200px;
+        position: absolute;
+
+    }
+
+    .text2{
+        top: 1900px;
+        left: 250px;
+        position: absolute;
+    }
+}
+
+
+
+
+@media screen and (max-width:582px)  {
+    
+    div.endfin{
+        top: 3900px;
+        width:900px ;
+
+    }
+
+    .text4{
+        top: 3490px;
+        left: 200px;
+        position: absolute;
+
+
+    }
+
+    .text2{
+        top: 1870px;
+        left: 250px;
+        position: absolute;
+        width: 500px;
+    }
+    .text4{
+        top: 3490px;
+        left: 200px;
+        position: absolute;
+        width: 500px;
+
+    }
+
+    
+    .text3{
+        top: 2700px;
+        left: 70px;
+        position: absolute;
+        width: 500px;
+    } 
+
+    .case{
+        top: 750px;
+        left: 590px;
+        position: absolute;
+        width: 500px;
+    }
+   
+}
+
+@media screen and (max-width:303px){
+    div.textha{ width: 500px;}
+}  
